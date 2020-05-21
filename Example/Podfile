@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'DMHomeLinkSDK_Example' do
+  pod 'DMHomeLinkSDK', :path => '../'
+
+  target 'DMHomeLinkSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
