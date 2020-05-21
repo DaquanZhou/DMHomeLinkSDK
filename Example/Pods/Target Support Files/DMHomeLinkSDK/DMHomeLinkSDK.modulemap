@@ -1,0 +1,6 @@
+framework module DMHomeLinkSDK {
+  umbrella header "DMHomeLinkSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

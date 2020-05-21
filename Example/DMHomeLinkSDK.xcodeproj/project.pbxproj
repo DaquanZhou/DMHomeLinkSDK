@@ -60,12 +60,12 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D1E34E4DAB68613908A468C /* Pods-DMHomeLinkSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMHomeLinkSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DMHomeLinkSDK_Tests/Pods-DMHomeLinkSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		BDDE8F5B7144F826542FCA7C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BDDE8F5B7144F826542FCA7C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C8DEA882A765DF6AD1D099CD /* Pods_DMHomeLinkSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DMHomeLinkSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB510478F9A76529697FDFEB /* Pods-DMHomeLinkSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMHomeLinkSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-DMHomeLinkSDK_Example/Pods-DMHomeLinkSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D910B5315DB519D2447489EA /* DMHomeLinkSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DMHomeLinkSDK.podspec; path = ../DMHomeLinkSDK.podspec; sourceTree = "<group>"; };
+		D910B5315DB519D2447489EA /* DMHomeLinkSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DMHomeLinkSDK.podspec; path = ../DMHomeLinkSDK.podspec; sourceTree = "<group>"; };
 		E19025530C15A6117B8CAA01 /* Pods_DMHomeLinkSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DMHomeLinkSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDCD2AE8F2D00D47040EC195 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EDCD2AE8F2D00D47040EC195 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F2280DFFFF8D61AE1EB098E8 /* Pods-DMHomeLinkSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMHomeLinkSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-DMHomeLinkSDK_Example/Pods-DMHomeLinkSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				9D1E34E4DAB68613908A468C /* Pods-DMHomeLinkSDK_Tests.debug.xcconfig */,
 				43C58E500F954B77F5A7B24C /* Pods-DMHomeLinkSDK_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = DaquanZhou;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 5DJ5ACSQA6;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -494,11 +497,12 @@
 			baseConfigurationReference = F2280DFFFF8D61AE1EB098E8 /* Pods-DMHomeLinkSDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5DJ5ACSQA6;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DMHomeLinkSDK/DMHomeLinkSDK-Prefix.pch";
 				INFOPLIST_FILE = "DMHomeLinkSDK/DMHomeLinkSDK-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dmaker.DMHomeLinkSDK-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
@@ -510,11 +514,12 @@
 			baseConfigurationReference = CB510478F9A76529697FDFEB /* Pods-DMHomeLinkSDK_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5DJ5ACSQA6;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DMHomeLinkSDK/DMHomeLinkSDK-Prefix.pch";
 				INFOPLIST_FILE = "DMHomeLinkSDK/DMHomeLinkSDK-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dmaker.DMHomeLinkSDK-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;

@@ -1,0 +1,16 @@
+PODS:
+  - DMHomeLinkSDK (0.1.0)
+
+DEPENDENCIES:
+  - DMHomeLinkSDK (from `../`)
+
+EXTERNAL SOURCES:
+  DMHomeLinkSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DMHomeLinkSDK: f78380f48960e9a348af9a1ecef9af897b91dea0
+
+PODFILE CHECKSUM: 97cea327f4d59cc2368b82792077fc6f38aa1391
+
+COCOAPODS: 1.9.1
