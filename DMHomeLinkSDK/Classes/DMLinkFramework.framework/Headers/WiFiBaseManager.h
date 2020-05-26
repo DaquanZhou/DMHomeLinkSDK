@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <UIKit/UIKit.h>
 #import "HttpRequest.h"
 
 #define WIFI_START_ORDER    @"FACEAA00"
