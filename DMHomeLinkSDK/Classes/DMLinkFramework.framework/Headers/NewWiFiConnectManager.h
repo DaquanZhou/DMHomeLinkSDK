@@ -9,6 +9,7 @@
 #import "WiFiBaseManager.h"
 
 
+
 @interface NewWiFiConnectManager : WiFiBaseManager
 
 

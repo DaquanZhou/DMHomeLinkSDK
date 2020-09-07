@@ -1,6 +1,6 @@
 {
   "name": "DMHomeLinkSDK",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "summary": "最新的配网啦",
   "homepage": "https://github.com/DaquanZhou/DMHomeLinkSDK",
   "license": {
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/DaquanZhou/DMHomeLinkSDK.git",
-    "tag": "1.1.0"
+    "tag": "1.1.1"
   },
   "platforms": {
     "ios": "8.0"

@@ -86,6 +86,9 @@ typedef void(^WiFiCallback)(WifiState wifistate);
 
 //配网成功或失败后续操作(无需调用)
 - (void)mangeOpereation;
+
+//手动停止配网
+- (void)stopLinkOpereation;
 @end
 
 NS_ASSUME_NONNULL_END

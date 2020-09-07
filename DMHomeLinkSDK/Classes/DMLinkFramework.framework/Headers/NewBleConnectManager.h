@@ -8,12 +8,12 @@
 
 #import "WiFiBaseManager.h"
 #import <CoreBluetooth/CoreBluetooth.h>
-#import "BluetoothManager.h"
+#import "DMBluetoothManager.h"
 
 
 @interface NewBleConnectManager : WiFiBaseManager
 
-@property (nonatomic, strong) BluetoothManager *bluetooth;
+@property (nonatomic, strong) DMBluetoothManager *bluetooth;
 
 - (void)connectWithPeripheral:(CBPeripheral*)peripheral;
 

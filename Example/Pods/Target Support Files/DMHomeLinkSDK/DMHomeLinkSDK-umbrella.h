@@ -10,7 +10,8 @@
 #endif
 #endif
 
-#import "BluetoothManager.h"
+#import "DMBluetoothManager.h"
+#import "DMLink.h"
 #import "HttpRequest.h"
 #import "NewBleConnectManager.h"
 #import "NewWiFiConnectManager.h"
